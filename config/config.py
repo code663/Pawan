@@ -169,10 +169,11 @@ autoclean = []
 
 # Images
 START_IMG_URL = getenv("START_IMG_URL", None)
-
+"START_IMG_URL" 
+"https://telegra.ph/file/f30a9f7ef2f7e4fcf4930.jpg"
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg",
+    "https://telegra.ph/file/75ec3bd5fef07acbe336d.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
@@ -187,7 +188,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg",
+    "https://telegra.ph/file/52113714e3dc9d5fa215e.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -274,7 +275,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "https://telegra.ph/file/91533956c91d0fd7c9f20.jpg":
+    if PING_IMG_URL != "https://telegra.ph/file/75ec3bd5fef07acbe336d.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL url is wrong. Please ensure that it starts with https://"
@@ -299,7 +300,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "https://telegra.ph/file/4dd9e2c231eaf7c290404.jpg":
+    if STATS_IMG_URL != "https://telegra.ph/file/52113714e3dc9d5fa215e.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL url is wrong. Please ensure that it starts with https://"
