@@ -57,7 +57,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
     ]
-
+InlineKeyboardButton(
+                text="🥀𝗼𝘄𝗻𝗲𝗿🥀", url="https://t.me/PAWAN_IS_BACK",
+            ),
+            InlineKeyboardButton(
+                text="🥀𝘀𝘂𝗽𝗽𝗼𝗿𝘁🥀", url="https://t.me/ANGEL_K_WORLD",
+            )       
 
 def telegram_markup_timer(_, chat_id, played, dur):
     bar = random.choice(selections)
@@ -79,7 +84,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
     ]
 
-
+InlineKeyboardButton(
+                text="🥀𝗼𝘄𝗻𝗲𝗿🥀", url="https://t.me/PAWAN_IS_BACK",
+            ),
+            InlineKeyboardButton(
+                text="🥀𝘀𝘂𝗽𝗽𝗼𝗿𝘁🥀", url="https://t.me/ANGEL_K_WORLD",
+            )       
 ## Inline without Timer Bar
 
 
@@ -161,7 +171,12 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         ],
     ]
 
-
+InlineKeyboardButton(
+                text="🥀𝗼𝘄𝗻𝗲𝗿🥀", url="https://t.me/PAWAN_IS_BACK",
+            ),
+            InlineKeyboardButton(
+                text="🥀𝘀𝘂𝗽𝗽𝗼𝗿𝘁🥀", url="https://t.me/ANGEL_K_WORLD",
+            )       
 ## Live Stream Markup
 
 
@@ -214,7 +229,12 @@ def slider_markup(
         ],
     ]
 
-
+InlineKeyboardButton(
+                text="🥀𝗼𝘄𝗻𝗲𝗿🥀", url="https://t.me/PAWAN_IS_BACK",
+            ),
+            InlineKeyboardButton(
+                text="🥀𝘀𝘂𝗽𝗽𝗼𝗿𝘁🥀", url="https://t.me/ANGEL_K_WORLD",
+            )       
 ## Cpanel Markup
 
 
@@ -289,7 +309,12 @@ def panel_markup_2(_, videoid, chat_id):
             ),
         ],
     ]
-
+InlineKeyboardButton(
+                text="🥀𝗼𝘄𝗻𝗲𝗿🥀", url="https://t.me/PAWAN_IS_BACK",
+            ),
+            InlineKeyboardButton(
+                text="🥀𝘀𝘂𝗽𝗽𝗼𝗿𝘁🥀", url="https://t.me/ANGEL_K_WORLD",
+            )       
 
 def panel_markup_3(_, videoid, chat_id):
     return [
